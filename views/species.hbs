@@ -1,0 +1,39 @@
+<h1>Swapi Species</h1>
+
+<a href="/">Home</a>
+
+<div>
+    {{#each info}}
+    <div>
+        <h1>{{this.0.name}}</h1>
+        <p>{{this.0.classification}}</p>
+        <p>{{this.0.designation}}</p>
+        <p>{{this.0.average_lifespan}}</p>
+    </div>
+    <div>
+       <h1>{{this.1.name}}</h1>
+        <p>{{this.1.classification}}</p>
+        <p>{{this.1.designation}}</p>
+        <p>{{this.1.average_lifespan}}</p> 
+    </div>
+    <div>
+        <h1>{{this.2.name}}</h1>
+        <p>{{this.2.classification}}</p>
+        <p>{{this.2.designation}}</p>
+        <p>{{this.2.average_lifespan}}</p>
+    </div>
+    <div>
+        <h1>{{this.3.name}}</h1>
+        <p>{{this.3.classification}}</p>
+        <p>{{this.3.designation}}</p>
+        <p>{{this.3.average_lifespan}}</p>
+    </div>
+    <div>
+        <h1>{{this.4.name}}</h1>
+        <p>{{this.4.classification}}</p>
+        <p>{{this.4.designation}}</p>
+        <p>{{this.4.average_lifespan}}</p>
+    </div>
+  
+    {{/each}}
+</div>

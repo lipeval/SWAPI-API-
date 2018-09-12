@@ -7,6 +7,7 @@
     "dev": "DEBUG=musicapi:* nodemon ./bin/www"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "body-parser": "~1.18.2",
     "cookie-parser": "~1.4.3",
     "dotenv": "~4.0.0",
@@ -14,8 +15,10 @@
     "hbs": "~4.0.1",
     "mongoose": "~4.13.4",
     "morgan": "~1.9.0",
+    "node-fetch": "^2.2.0",
     "node-sass-middleware": "0.11.0",
-    "serve-favicon": "~2.4.5"
+    "serve-favicon": "~2.4.5",
+    "xml2js": "^0.4.19"
   },
   "devDependencies": {
     "nodemon": "^1.12.1"

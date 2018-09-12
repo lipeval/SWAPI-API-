@@ -1,0 +1,40 @@
+<h1>Swapi Planets</h1>
+
+
+<a href="/">Home</a>
+
+<div>
+    {{#each info}}
+    <div>
+        <h1>{{this.0.name}}</h1>
+        <p>{{this.0.diameter}}</p>
+        <p>{{this.0.terrain}}</p>
+        <p>{{this.0.population}}</p>
+    </div>
+    <div>
+       <h1>{{this.1.name}}</h1>
+        <p>{{this.1.diameter}}</p>
+        <p>{{this.1.terrain}}</p>
+        <p>{{this.1.population}}</p> 
+    </div>
+    <div>
+        <h1>{{this.2.name}}</h1>
+        <p>{{this.2.diameter}}</p>
+        <p>{{this.2.terrain}}</p>
+        <p>{{this.2.population}}</p>
+    </div>
+    <div>
+        <h1>{{this.3.name}}</h1>
+        <p>{{this.3.diameter}}</p>
+        <p>{{this.3.terrain}}</p>
+        <p>{{this.3.population}}</p>
+    </div>
+    <div>
+        <h1>{{this.4.name}}</h1>
+        <p>{{this.4.diameter}}</p>
+        <p>{{this.4.terrain}}</p>
+        <p>{{this.4.population}}</p>
+    </div>
+  
+    {{/each}}
+</div>

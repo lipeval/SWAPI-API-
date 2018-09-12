@@ -10,6 +10,7 @@ const logger       = require('morgan');
 const path         = require('path');
 
 
+
 mongoose.Promise = Promise;
 mongoose
   .connect('mongodb://localhost/musicapi', {useMongoClient: true})
@@ -47,9 +48,13 @@ app.use(favicon(path.join(__dirname, 'public', 'images', 'favicon.ico')));
 
 
 // default value for title local
-app.locals.title = 'Express - Generated with IronGenerator';
+app.locals.title = 'SWAPI la API de Star Wars!';
 
+const PORT = process.env.PORT || 4001;
 
+app.listen(PORT, () => {
+  console.log(`Listening on port ${PORT}`);
+});
 
 const index = require('./routes/index');
 app.use('/', index);
