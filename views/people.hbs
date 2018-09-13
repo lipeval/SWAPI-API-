@@ -2,10 +2,56 @@
 <h1>Swapi People</h1>
 
 <a href="/">Home</a>
-   
-<div> {{#each info}}
-<div class="container">
+
+
+     {{#each info}}
+     <section>
+        
+      <div>
+        <h3>{{this.0.name}}</h3>
+        <p>{{this.0.height}}</p>
+        <p>{{this.0.mass}}</p>
+
+
+        <h3>{{this.1.name}}</h3>
+        <p> {{this.1.height}}</p>
+        <p>{{this.1.mass}}</p>
+        
+      
+
+     
+        <h3>{{this.2.name}}</h3>
+        <p> {{this.2.height}}</p>
+        <p>{{this.2.mass}}</p>
     
+
+     
+        <h3>{{this.3.name}}</h3>
+        <p> {{this.3.height}}</p>
+        <p>{{this.3.mass}}</p>
+   
+
+      
+        <h3>{{this.4.name}}</h3>
+        <p> {{this.4.height}}</p>
+        <p>{{this.4.mass}}</p>
+ 
+
+      
+        <h3>{{this.5.name}}</h3>
+        <p> {{this.5.height}}</p>
+        <p>{{this.5.mass}}</p>
+      </div>
+      </section>
+
+      
+      {{/each}}
+
+ 
+{{!-- <div> 
+    
+<div class="container">
+    {{#each info}}
     <div class="box">
         <h3>{{this.0.name}}</h3>
         <p>{{this.0.height}}</p>
@@ -50,4 +96,4 @@
 
 </div>
  {{/each}}
- </div>
+ </div> --}}

@@ -1,26 +1,8 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  
-
-}
-
-.image{
-  background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/N69pMl5/stars-rotating-north-pole-star-night-sky-polaris-time-lapse_hglvfkca_thumbnail-full01.png')
-}
-
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
 
 a {
   color: #00B7FF; }
-
-
-  h1 {
-    text-align: center;
-    color: white;
-  }
-
-  .p{
-    color: white;
-  }
 
 /*# sourceMappingURL=style.css.map */
